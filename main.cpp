@@ -15,14 +15,17 @@ int main()
 	std::vector<Puzzle*> puzzles;
 	puzzles.push_back(new Dec01());
 	puzzles.push_back(new Dec02());
+	puzzles.push_back(new Dec03());
+	puzzles.push_back(new Dec04());
+	puzzles.push_back(new Dec05());
 	bool running = true;
 	int index = 0;
 	int part = 0;
 	State state = State::PuzzleSelection;
 
 	{
-		index = 2;
-		part = 1;
+		index = 5;
+		part = 2;
 		state = State::Solving;
 	}
 
@@ -83,6 +86,11 @@ int main()
 		}
 	}
 	
+	while (puzzles.size() != 0)
+	{
+		delete puzzles[puzzles.size()-1];
+		puzzles.pop_back();
+	}
 
 	return 0;
 }

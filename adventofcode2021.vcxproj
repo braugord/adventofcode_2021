@@ -23,6 +23,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dec02.cpp" />
+    <ClCompile Include="Dec03.cpp" />
+    <ClCompile Include="Dec04.cpp" />
+    <ClCompile Include="Dec05.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Dec01.cpp" />
   </ItemGroup>

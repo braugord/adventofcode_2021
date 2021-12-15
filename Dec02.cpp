@@ -47,7 +47,7 @@ void Dec02::SolvePart1()
 		}
 	}
 	int result = x * y;
-	std::cout << "Dec01 - Solution2 : " << result << std::endl;
+	std::cout << "Dec01 - Solution1 : " << result << std::endl;
 }
 
 void Dec02::SolvePart2()
